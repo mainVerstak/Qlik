@@ -293,7 +293,7 @@ body {
       padding-bottom: 95px; } }
   @media (min-width: 1240px) {
     .index-blok {
-      padding-top: 14vw; } }
+      padding-top: 10vw; } }
 
 .index-blok-img span {
   position: absolute;
@@ -345,16 +345,16 @@ body {
   font-weight: 500;
   color: #fff;
   max-width: 310px;
-  text-align: center; }
+  text-align: center;
+  /*@media (min-width: 920px) {
+		opacity: 0;
+		pointer-events: none;
+	}*/ }
   @media (max-width: 620px) {
     .index-blok__title {
       font-size: 20px;
       max-width: 165px;
       padding-bottom: 10px; } }
-  @media (min-width: 920px) {
-    .index-blok__title {
-      opacity: 0;
-      pointer-events: none; } }
 
 .text-blok {
   overflow: hidden; }
